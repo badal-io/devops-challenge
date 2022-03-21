@@ -36,7 +36,7 @@
     - env_code:                  `p` 
     - random string:        `dg64`
 
--	The “env_code” string must be parsed from the `environment` variable using a Terraform function inside the module.
+-	The `"env_code”` string must be parsed from the `environment` variable using a Terraform function inside the module.
 -	Assume that a network (VPC) is already created, `"network-prod"` . If it's required by the provider, declare a subnetwork as well.
 -	Variables such as Region, Zone, Labels should not be hardcoded.
 -   Public IP provisioning must be contoled by a Boolean switch: `true/false`.
@@ -105,8 +105,8 @@
 <br>
 
 **7.**	Using any scripting language of your choice, write a script that performs the fowling jobs.
-    -	7.1 Make backup of the “var/www” directory
-    -	7.2 Make sure that a backup directory exists before performing the backup operation. Backup directory should be “/var/lib/backups”.
-    -	7.3 Backup file name format: www-backup-YYY-MM-DD.tar.gz, where YYYY is the year of backups, MM is the month, DD is the day.
-    -   7.4 Commit your script code into the same repository you used in the previous tasks.
+-	7.1 Make backup of the “var/www” directory
+-	7.2 Make sure that a backup directory exists before performing the backup operation. Backup directory should be “/var/lib/backups”.
+-	7.3 Backup file name format: www-backup-YYY-MM-DD.tar.gz, where YYYY is the year of backups, MM is the month, DD is the day.
+-   7.4 Commit your script code into the same repository you used in the previous tasks.
  
