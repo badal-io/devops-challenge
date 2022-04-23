@@ -73,8 +73,8 @@
 
 <br>
 
-**4.** Create a CI/CD pipeline for the infrastructure code built in the previous steps. Use any CI/CD tool of your choice.
- -	4.1 Include the following mandatory steps in the workflow:
+**4.** Write a CI/CD pipeline for the infrastructure code built in the previous steps. Use any CI/CD tool of your choice.
+ -	4.1 In the pipeline configuration file include the following mandatory steps in the workflow:
 ``` sh    
     -	Code validation
     -	Preparation 
@@ -104,9 +104,10 @@
 
 <br>
 
-**7.**	Using any scripting language of your choice, write a script that performs the fowling jobs.
--	7.1 Make backup of the “var/www” directory
--	7.2 Make sure that a backup directory exists before performing the backup operation. Backup directory should be “/var/lib/backups”.
--	7.3 Backup file name format: www-backup-YYY-MM-DD.tar.gz, where YYYY is the year of backups, MM is the month, DD is the day.
--   7.4 Commit your script code into the same repository you used in the previous tasks.
+**7.**	You are a Linux server administrator. Using any scripting language of your choice, write a script that performs the following jobs on a server. previous tasks.
+-	7.1 Makes backup of the “var/www” directory
+-	7.2 Makes sure that a backup directory exists before performing the backup operation. Backup directory should be “/var/lib/backups”.
+
+Backup file name format: www-backup-YYY-MM-DD.tar.gz, where YYYY is the year of backups, MM is the month, DD is the day.
+Commit your script code into the same task repository.
  
