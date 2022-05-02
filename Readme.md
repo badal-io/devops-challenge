@@ -62,6 +62,7 @@
 | vm_name  | string  | vm-instance full name  |  
 | Private IP address  | string | string | 
 | Public IP address  | string | string | 
+| Root Password  | string | string | 
 
 <br>
 
@@ -92,7 +93,7 @@
 ``` sh
     -   Pull ubuntu 18.04 image
     -	Install Python 
-    -	Install Python requirements defined in a requireemsnt.txt file. The file should be in the same directory as Dockerfile
+    -	Install Python requirements defined in a requirements.txt file. The file should be in the same directory as Dockerfile
     -	Deploy a python web application that is located under /opt/webapp
     -	The web applicaiton runs on port 5000
     -	Make sure the web applicaiton starts when a container is run.
